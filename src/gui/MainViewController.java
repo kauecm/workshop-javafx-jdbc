@@ -19,7 +19,7 @@ import javafx.scene.layout.VBox;
 public class MainViewController implements Initializable {
 
 	@FXML
-	private MenuItem cadastro;
+	private MenuItem department;
 	
 	@FXML
 	private MenuItem produto;
@@ -28,8 +28,8 @@ public class MainViewController implements Initializable {
 	private MenuItem about;
 	
 	@FXML
-	public void onMenuItemCadastroAction() {
-		loadView("/gui/Cliente.fxml");
+	public void onMenuItemDepartamentoAction() {
+		loadView("/gui/DepartmentList.fxml");
 	}
 	
 	@FXML
