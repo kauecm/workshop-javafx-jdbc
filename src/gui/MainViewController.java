@@ -29,7 +29,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemCadastroAction() {
-		System.out.println("onMenuItemCadastroAction");
+		loadView("/gui/Cliente.fxml");
 	}
 	
 	@FXML
